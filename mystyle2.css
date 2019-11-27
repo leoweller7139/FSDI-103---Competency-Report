@@ -1,0 +1,66 @@
+.square2{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 31%;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+video{
+    padding: 1.2rem;
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 2.6rem;
+    border-left: 10px solid blue;
+}
+
+.h2{
+    text-align: center;
+}
+
+.h5{
+    text-align: center;
+    font-size: 2rem;
+}
+
+html{
+    background-image: url(https://www.elsetge.cat/myimg/f/87-872173_american-football-uhd-4k-wallpaper-american-football-high.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150vh;
+    width: 100%;
+
+}
+
+.profile{
+    width: 70%; 
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.players{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;
+}
+
+.square{
+    flex-basis: calc(30% - 5px);
+    padding: 5px;
+}
+
+.square-text{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.342);
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    color: rgb(221, 90, 29);
+}
